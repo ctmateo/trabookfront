@@ -1,0 +1,40 @@
+.banner-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  width: 100%;
+  padding-top: 120px;
+}
+.column-left{
+  padding-right:136px;
+}
+.title-banner{
+  width: 600px;
+  font-family: 'Volkhov', serif;
+  font-size: 64px;
+  span{
+    color: #FD8D3A;
+  }
+}
+.paragraph{
+  color: #666;
+  width: 497px;
+  padding-top: 10px;
+  padding-bottom: 70px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+.outline-button{
+  padding: 14px 28px;
+  color: #FD8D3A;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 1px solid #FD8D3A;
+  background: none;
+}
+
+
+#img-banner{
+  width: 450px;
+  height: 530px;
+}

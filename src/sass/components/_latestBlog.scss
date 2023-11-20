@@ -1,0 +1,25 @@
+.container_latestblog {
+  margin-top: 230px;
+}
+
+.container_cards_blog {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.image_card_blog {
+  img {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    width: 270px;
+    height: 200px;
+    flex-shrink: 0;
+  }
+}
+
+.card_latestblog {
+  cursor: pointer;
+  width: 270px;
+}

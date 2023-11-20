@@ -1,0 +1,83 @@
+
+.page-container{
+  align-items: center;
+  justify-content: center;
+  h1, button, a, li, ul{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+
+    .brand-header {
+      display: flex;
+      align-items: center;
+
+      h1 {
+        margin: 0;
+        margin-right: 10px;
+        font-size: 24px;
+        font-family: 'Volkhov', serif;
+        font-weight: 100;
+      }
+
+      img {
+        width: 19px;
+      }
+    }
+  }
+
+  .center-container {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+
+    a {
+      font-family: 'Poppins', sans-serif;
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+    }
+  }
+
+  .end-container {
+    display: flex;
+    button {
+      margin-left: 15px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    #login-button{
+      background: none;
+      border: none;
+      color: #FD8D3A;
+    }
+
+    #signup-button{
+      background: #FD8D3A;
+      border: none;
+      color: #FEFCFB;
+      height: 50px;
+      width: 160px;
+      border-radius: 5px;
+    }
+
+
+  }
+}
+
